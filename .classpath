@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="LIB/com.ibm.icu_4.4.2.v20110823.jar"/>
-	<classpathentry kind="lib" path="LIB/org.eclipse.core.commands_3.6.1.v20120912-135020.jar"/>
-	<classpathentry kind="lib" path="LIB/org.eclipse.core.runtime_3.8.0.v20120521-2346.jar"/>
-	<classpathentry kind="lib" path="LIB/org.eclipse.equinox.common_3.6.100.v20120522-1841.jar"/>
-	<classpathentry kind="lib" path="LIB/org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar"/>
-	<classpathentry kind="lib" path="LIB/org.eclipse.jface_3.8.0.v20120912-135020.jar"/>
-	<classpathentry kind="lib" path="LIB/org.eclipse.jface.databinding_1.6.0.v20120912-135020.jar"/>
-	<classpathentry kind="lib" path="LIB/org.eclipse.jface.text_3.8.2.v20121126-164145.jar"/>
-	<classpathentry kind="lib" path="LIB/org.eclipse.osgi_3.8.2.v20130124-134944.jar"/>
-	<classpathentry kind="lib" path="LIB/org.eclipse.text_3.5.200.v20120523-1310.jar"/>
-	<classpathentry kind="lib" path="LIB/org.eclipse.ui.forms_3.5.200.v20120521-2332.jar"/>
-	<classpathentry kind="lib" path="LIB/org.eclipse.ui.workbench_3.8.2.v20121128-133708.jar"/>
-	<classpathentry kind="lib" path="LIB/swt64/org.eclipse.swt.win32.win32.x86_64_3.103.2.v20150203-1351.jar"/>
-	<classpathentry kind="lib" path="LIB/jodd-3.6.6.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
