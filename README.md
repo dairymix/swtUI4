@@ -5,8 +5,8 @@
 启动主界面：
 com.ztesoft.ip.ui.MainApp
 
- ![image](https://github.com/dongwei0079/swtUI4/pics/png1.bmp)
- ![image](https://github.com/dongwei0079/swtUI4/pics/png2.png)
+ ![image](https://github.com/dongwei0079/swtUI4/raw/master/pics/png1.bmp)
+ ![image](https://github.com/dongwei0079/swtUI4/raw/master/pics/png2.png)
  
 
 发布升级日志
