@@ -7,9 +7,8 @@ com.ztesoft.ip.ui.MainApp
 
  ![image](https://github.com/dongwei0079/swtUI4/raw/master/pics/png1.bmp)
  ![image](https://github.com/dongwei0079/swtUI4/raw/master/pics/png2.png)
- 
-
-发布升级日志
-v1.0 2015年6月18日 13:50:38
-1.初始化项目
-2.业务背景：切换到不同的网络环境设置繁琐的ip dns很麻烦，用跨平台swt来做，界面可以美化，支持用户自定义，目前只支持颜色
+  
+发布升级日志</br>
+v1.0 2015年6月18日 13:50:38</br>
+1.初始化项目 </br>
+2.业务背景：切换到不同的网络环境设置繁琐的ip dns很麻烦，用跨平台swt来做，界面可以美化，支持用户自定义，目前只支持颜色</br>
